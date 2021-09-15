@@ -1,12 +1,11 @@
 # toki sona
+[![tests](https://github.com/dmadisetti/sona.js/actions/workflows/tests.yml/badge.svg)](https://github.com/dmadisetti/sona.js/actions/workflows/tests.yml)
 
 a 1000 character language inspired by toki pona
 
-[![tests](https://github.com/dmadisetti/sona.js/actions/workflows/tests.yml/badge.svg)](https://github.com/dmadisetti/sona.js/actions/workflows/tests.yml)
-
 ---
 
-![toki sona pi toki sona](https://raw.githubusercontent.com/dmadisetti/sona.js/sona.png)]
+![toki sona pi toki sona](https://raw.githubusercontent.com/dmadisetti/sona.js/main/sona.png)]
 
 ### why
 
