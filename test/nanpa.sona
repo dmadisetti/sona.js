@@ -1,0 +1,31 @@
+# ni li toki e "4 8 15 16 23 42 12 1 0 1337"
+
+ijo Tu li 2
+
+# 4
+ijo TuTu li 4
+# 8
+ijo TuTuTu li TuTu mute 2
+
+# 15
+ijo MuteEnLuka li 15
+# 16
+ijo MuteEnLukaWan li MuteEnLuka en 1
+
+# 23
+ijo NanpaWeka li 46 weka Tu
+
+# 42
+ijo NanpaIke li NanpaWeka en MuteEnLukaWan
+ijo NanpaIke li NanpaIke en NanpaIke
+ijo NanpaIke li NanpaIke ante 36
+
+# 12
+ijo NanpaAnu li TuTu anu TuTuTu
+
+# 1
+ijo Wan li TuTu li 4
+
+ijo Ala li NanpaIke weka 0
+
+nanpa TuTu TuTuTu MuteEnLuka MuteEnLukaWan NanpaWeka 42 NanpaAnu Wan Ala 1337

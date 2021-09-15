@@ -1,0 +1,19 @@
+# toki sona li pali e ni:
+# o pana nanpa kama en nanpa pini
+
+ma SonaPipinaki
+
+ijo NakiPini li 0
+ijo NakiKama li 1
+
+# 10 li mute mute
+ijo Nanpa li 10
+
+ma Pipinaki
+ken Nanpa li 0 la pini
+nanpa NakiKama
+ijo NakiKama li NakiPini en NakiKama
+ijo NakiPini li NakiKama ante NakiPini
+ijo Nanpa li Nanpa ante 1
+
+tawa Pipinaki

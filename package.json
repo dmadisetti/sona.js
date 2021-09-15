@@ -1,0 +1,27 @@
+{
+  "name": "sona",
+  "version": "1.0.0",
+  "description": "A toki pona inspired interpreted language",
+  "main": "sona.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmadisetti/sona.js.git"
+  },
+  "keywords": [
+    "toki",
+    "pona",
+    "language"
+  ],
+  "author": "dylan madisetti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmadisetti/sona.js/issues"
+  },
+  "homepage": "https://github.com/dmadisetti/sona.js#readme",
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  }
+}
