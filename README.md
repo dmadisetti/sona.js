@@ -5,7 +5,7 @@ a 1000 character language inspired by toki pona
 
 ---
 
-![toki sona pi toki sona](https://raw.githubusercontent.com/dmadisetti/sona.js/main/sona.png)]
+![toki sona pi toki sona](https://raw.githubusercontent.com/dmadisetti/sona.js/main/sona.png)
 
 ### why
 
