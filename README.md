@@ -80,4 +80,4 @@ why not
 
 ### notes
 
-Integer only math. Forgives over fails. Good luck debugging.
+Integer only math. Paternalistic PascalCase. Forgives over fails. Good luck debugging.
