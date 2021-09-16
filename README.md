@@ -35,9 +35,6 @@ ijo NanpaTenpo li NanpaKiwen weka NanpaKo
 ijo NanpaTenpo li NanpaTenpo mute NanpaKo
 # nanpa li ala kiwen. nanpa li ko
 ken NanpaTenpo li NanpaKiwen la tawa Kiwen
-# ken nanpa tenpo li suli
-ijo NanpaTenpo li NanpaTenpo weka NanpaKiwen
-ken NanpaTenpo li 1 la tawa Kiwen
 
 # nanpa li ken kiwen
 tawa Ko
@@ -65,7 +62,7 @@ why not
 
 #### expressions
 
-`ala` `[symbol]`: not symbol
+`A` `ala`: not A
 
 `A` `anu` `B`: bitwise or
 

@@ -24,8 +24,8 @@
               (X)=>w(X)||E(X),P=(n,f)=>((...A)=>(A.length==
              n||R(...A))&&f(A[0])), p=(f)=>P(1, f),s=(s)=>(s
             ).split(/\s+/),f=(a)=>w(a)?v[a]:(a|0),u=(...A)=>(
-           a=A.length)>3?Q(A):[f,(op,a)=>(o[op]||R(op))(f(a)),
-          (a,op, b)=>(i[op] ||R(op))(f(a),f(b))|0,][a-1](...A),
+           a=A.length)>3?Q(A):[f,(a,op)=>(o[op]||R(op))(f(a)),
+          (a,op,b)=>(i[op]||R(op))(f(a),f(b))|0,][a-1](...A)|0,
           U=(p)=>(I[r=p.shift()]||R(r))(...p),n=(  )=>s(c[l++])
           ;const o={     "ala":(a)=>!a};const i    ={"anu":(a,b
           )=> (a| b),     "en": (a, b) => a+b,     "mute":(a, b

@@ -23,7 +23,7 @@ describe('sona', function() {
     describe('nanpa', function() {
         it('basic number operations', function(done) {
             load_sona("nanpa.sona",
-                (result) => assert.deepEqual(result, [4, 8, 15, 16, 23, 42, 12, 1, 0, 1337]), done);
+                (result) => assert.deepEqual(result, [4, 8, 15, 16, 23, 42, 12, 1, 1, 0, 1337]), done);
         });
     });
     describe('primes', function() {
