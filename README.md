@@ -7,7 +7,7 @@ a simple language with a 1000 character interpreter inspired by toki pona
 
 ![toki sona pi toki sona](https://raw.githubusercontent.com/dmadisetti/sona.js/main/sona.png)
 
-## example sona program (calculates 10 the first primes)
+## example sona program (calculates the first 10 primes)
 ```
 ma SonaPiNanpaKiwen
 
