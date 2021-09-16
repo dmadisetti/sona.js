@@ -1,12 +1,47 @@
 # toki sona
 
-a 1000 character language inspired by toki pona
+a simple language with a 1000 character interpreter inspired by toki pona
 
 [![tests](https://github.com/dmadisetti/sona.js/actions/workflows/tests.yml/badge.svg)](https://github.com/dmadisetti/sona.js/actions/workflows/tests.yml)
 
 ---
 
 ![toki sona pi toki sona](https://raw.githubusercontent.com/dmadisetti/sona.js/sona.png)]
+
+## example sona program (calculates 10 the first primes)
+```
+ma SonaPiNanpaKiwen
+
+# nanpa pi pali pini
+ijo Nanpa li 10
+# ken nanpa kiwen
+ijo NanpaKiwen li 1
+
+ma Kiwen
+ken Nanpa li 0 la pini
+# ijo nanpa kiwen en wan li kiwen o ala kiwen?
+ijo NanpaKiwen li NanpaKiwen en 1
+
+# pali sona pi nanpa ko
+ijo NanpaKo li 1
+ma Ko
+ijo NanpaKo li NanpaKo en 1
+ken NanpaKiwen li NanpaKo la nanpa NanpaKiwen
+# ante wan la ijo sona li pali e pini
+ken NanpaKiwen li NanpaKo la ijo Nanpa li Nanpa ante 1
+ken NanpaKiwen li NanpaKo la tawa Kiwen
+
+ijo NanpaTenpo li NanpaKiwen weka NanpaKo
+ijo NanpaTenpo li NanpaTenpo mute NanpaKo
+# nanpa li ala kiwen. nanpa li ko
+ken NanpaTenpo li NanpaKiwen la tawa Kiwen
+# ken nanpa tenpo li suli
+ijo NanpaTenpo li NanpaTenpo weka NanpaKiwen
+ken NanpaTenpo li 1 la tawa Kiwen
+
+# nanpa li ken kiwen
+tawa Ko
+```
 
 ### why
 

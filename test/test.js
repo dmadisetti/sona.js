@@ -26,9 +26,15 @@ describe('sona', function() {
                 (result) => assert.deepEqual(result, [4, 8, 15, 16, 23, 42, 12, 1, 0, 1337]), done);
         });
     });
+    describe('primes', function() {
+        it('generates prime numbers', function(done) {
+            load_sona("nanpakiwen.sona",
+                (result) => assert.deepEqual(result, [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]), done);
+        });
+    });
     describe('fibonacci', function() {
         it('computes first 10 fibonacci numbers', function(done) {
-            load_sona("pipinaki.sona",
+            load_sona("piponaki.sona",
                 (result) => assert.deepEqual(result, [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]), done);
         });
     });
