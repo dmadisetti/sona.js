@@ -1,5 +1,6 @@
 # toki sona
 [![tests](https://github.com/dmadisetti/sona.js/actions/workflows/tests.yml/badge.svg)](https://github.com/dmadisetti/sona.js/actions/workflows/tests.yml)
+[![playground](https://img.shields.io/badge/playground-sona-white.svg?logo=observable)](https://observablehq.com/@dmadisetti/sona)
 
 a simple language with a 1000 character interpreter inspired by toki pona
 
