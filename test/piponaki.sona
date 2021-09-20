@@ -3,17 +3,17 @@
 
 ma SonaPiponaki
 
-ijo NakiPini li 0
-ijo NakiKama li 1
+ijo NakiPini li ala
+ijo NakiKama li wan
 
-# 10 li mute mute
-ijo Nanpa li 10
+# mute li mute mute
+ijo Nanpa li mute
 
 ma Piponaki
-ken Nanpa li 0 la pini
-nanpa NakiKama
+ken Nanpa li ala la pini
+o nanpa e NakiKama
 ijo NakiKama li NakiPini en NakiKama
 ijo NakiPini li NakiKama ante NakiPini
-ijo Nanpa li Nanpa ante 1
+ijo Nanpa li Nanpa ante wan
 
 tawa Piponaki
