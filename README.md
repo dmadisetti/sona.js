@@ -13,22 +13,22 @@ a simple language with a 1000 character interpreter inspired by toki pona
 ma SonaPiNanpaKiwen
 
 # nanpa pi pali pini
-ijo Nanpa li 10
+ijo Nanpa li mute
 # ken nanpa kiwen
-ijo NanpaKiwen li 1
+ijo NanpaKiwen li wan
 
 ma Kiwen
-ken Nanpa li 0 la pini
+ken Nanpa li ala la pini
 # ijo nanpa kiwen en wan li kiwen o ala kiwen?
-ijo NanpaKiwen li NanpaKiwen en 1
+ijo NanpaKiwen li NanpaKiwen en wan
 
 # pali sona pi nanpa ko
-ijo NanpaKo li 1
+ijo NanpaKo li wan
 ma Ko
-ijo NanpaKo li NanpaKo en 1
+ijo NanpaKo li NanpaKo en wan
 ken NanpaKiwen li NanpaKo la nanpa NanpaKiwen
 # ante wan la ijo sona li pali e pini
-ken NanpaKiwen li NanpaKo la ijo Nanpa li Nanpa ante 1
+ken NanpaKiwen li NanpaKo la ijo Nanpa li Nanpa ante wan
 ken NanpaKiwen li NanpaKo la tawa Kiwen
 
 ijo NanpaTenpo li NanpaKiwen weka NanpaKo
@@ -54,10 +54,6 @@ why not
 
 `tawa` `<MarkerName>` : Goto markername
 
-`nanpa` `[symbols]`: adds number to return stack
-
-`toki` `[symbols]`: adds ascii to return stack
-
 `pini` : Halt the program and returns stack
 
 #### expressions
@@ -75,6 +71,17 @@ why not
 `A` `weka` `B`: division
 
 `A` `li` `B`: equality check
+
+`op` `e` `[symbols]`: Variable operation reduction
+
+#### effects
+
+`o nanpa e` `[symbols]`: adds number to return stack
+
+`o toki e` `[symbols]`: adds ascii to return stack
+
+#### builtins
+ala=0, wan=1, tu=2, luka=5, mute=10, ale=100
 
 ### notes
 
