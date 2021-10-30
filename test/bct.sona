@@ -1,8 +1,5 @@
-ijo PaliKama li 11
-ijo KoPali li 2
-
-ijo Sona li 1
-ijo KoSona li 1
+# default is 11 2 1 1
+o pana e PaliKama KoPali Sona KoSona
 
 ken Sona anu KoSona la o nanpa e Sona KoSona
 
