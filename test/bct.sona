@@ -1,0 +1,95 @@
+# default is 11 2 1 1
+o pana e PaliKama KoPali Sona KoSona
+
+ken Sona anu KoSona la o nanpa e Sona KoSona
+
+ijo SonaAla li Sona en KoSona
+ijo SonaAla li SonaAla ala
+ken SonaAla la pini
+
+ijo Tenpo li PaliKama
+ijo NanpaKipisi li ala
+ma Kipisi
+ijo Tenpo li Tenpo weka tu
+ijo NanpaKipisi li NanpaKipisi en wan
+ken Tenpo la tawa Kipisi
+
+ijo PaliKipisi li NanpaKipisi en KoPali
+ken PaliKipisi ala la pini
+
+# reset
+ijo Tenpo li Sona
+ijo NanpaKipisi li ala
+ma Kipisi
+ijo Tenpo li Tenpo weka tu
+ijo NanpaKipisi li NanpaKipisi en wan
+ken Tenpo la tawa Kipisi
+ijo KipisiSona li NanpaKipisi
+
+ijo Pali li PaliKama
+ijo Nanpa li ala
+
+# ----------------------------------
+
+ma Suno
+# periodic code
+ken Nanpa weka PaliKipisi la ijo Pali li PaliKama
+ken Nanpa weka PaliKipisi la ijo Nanpa li ala
+
+# code + data is inverted 00011101011000 -> pad 110101110000 where pad = 3
+
+# get bit and shift
+# better names
+ijo Wan li Pali weka tu
+ijo Wan li Wan mute tu
+ijo Wan li Pali ante Wan
+
+ijo Ala li Wan ala
+
+ijo Pali li Pali weka tu
+ijo Nanpa li Nanpa en wan
+ken Nanpa weka PaliKipisi la ijo Pali li PaliKama
+ken Nanpa weka PaliKipisi la ijo Nanpa li ala
+
+# run through Son the Ko
+ijo Ko li Sona ala
+ken Ala mute Sona la ijo KipisiSona li KipisiSona ante wan
+ken Ala mute Sona la ijo Sona li Sona weka tu
+# KoSona has to be non ala if Ko is Sona is empty
+ken Ala mute Ko la ijo KoSona li KoSona ante wan
+
+ijo WanKama li Pali weka tu
+ijo WanKama li WanKama mute tu
+ijo WanKama li Pali ante WanKama
+ken Wan la ijo Pali li Pali weka tu
+ken Wan la ijo Nanpa li Nanpa en wan
+
+ijo Pana li Sona weka tu
+ijo Pana li Pana mute tu
+ijo Pana li Sona ante Pana
+ken Sona ala la ijo Pana li ala
+ijo Pana li Wan mute Pana
+
+ijo Tenpo li wan
+ijo NanpaTenpo li wan
+ijo NanpaMute li KoSona en KipisiSona
+
+ijo Pini li Sona anu KoSona
+ijo Pini li Pini ala
+ijo Pini li Pini mute Ala
+ken Pini la pini
+
+ma Mute
+ijo Tenpo li Tenpo mute tu
+ijo NanpaTenpo li NanpaTenpo en wan
+ken NanpaMute weka NanpaTenpo la tawa Mute
+
+ijo WanKamaAla li WanKama ala
+ken Pana mute WanKamaAla la ijo KoSona li KoSona en wan
+
+ken Pana mute WanKama la ijo KoSona li ala
+ken Pana mute WanKama la ijo KipisiSona li NanpaMute
+ken Pana mute WanKama la ijo Sona li Sona en Tenpo
+
+ken Sona anu KoSona la o nanpa e Sona KoSona
+ken Sona anu KoSona la tawa Suno
